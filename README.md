@@ -1,2 +1,1 @@
-# Discord-Themes
-All my discord themes
+This is all my own Vencord themes for discord
