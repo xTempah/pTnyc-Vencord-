@@ -44,14 +44,16 @@
                 "enabled": false
             },
             "AnonymiseFileNames": {
-                "enabled": false
+                "enabled": true,
+                "method": 0,
+                "randomisedLength": 7
             },
             "BANger": {
                 "enabled": false,
                 "source": "https://i.imgur.com/wp5q52C.mp4"
             },
             "BetterGifAltText": {
-                "enabled": false
+                "enabled": true
             },
             "BetterNotesBox": {
                 "enabled": false
@@ -66,7 +68,8 @@
                 "enabled": false
             },
             "CallTimer": {
-                "enabled": true
+                "enabled": true,
+                "format": "stopwatch"
             },
             "ColorSighted": {
                 "enabled": false
@@ -118,7 +121,7 @@
                 "ignoreSelf": false
             },
             "MuteNewGuild": {
-                "enabled": false
+                "enabled": true
             },
             "NoBlockedMessages": {
                 "enabled": false
@@ -148,7 +151,7 @@
                 "enabled": false
             },
             "PlainFolderIcon": {
-                "enabled": false
+                "enabled": true
             },
             "PlatformIndicators": {
                 "enabled": false
@@ -160,7 +163,7 @@
                 "enabled": false
             },
             "ReverseImageSearch": {
-                "enabled": false
+                "enabled": true
             },
             "richerCider": {
                 "enabled": false
@@ -181,7 +184,8 @@
             },
             "SilentTyping": {
                 "enabled": true,
-                "showIcon": false
+                "showIcon": false,
+                "isEnabled": false
             },
             "SortFriendRequests": {
                 "enabled": true,
@@ -206,7 +210,10 @@
                 "enabled": false
             },
             "TypingTweaks": {
-                "enabled": false
+                "enabled": true,
+                "alternativeFormatting": true,
+                "showRoleColors": true,
+                "showAvatars": true
             },
             "Unindent": {
                 "enabled": false
@@ -218,10 +225,11 @@
                 "enabled": false
             },
             "ViewIcons": {
-                "enabled": false
+                "enabled": true
             },
             "VolumeBooster": {
-                "enabled": false
+                "enabled": true,
+                "multiplier": 2
             },
             "Webhook Tags": {
                 "enabled": false
@@ -255,7 +263,7 @@
                 "enabled": false
             },
             "FriendInvites": {
-                "enabled": false
+                "enabled": true
             },
             "FxTwitter": {
                 "enabled": true
@@ -273,7 +281,7 @@
                 "enabled": false
             },
             "MessageTags": {
-                "enabled": false
+                "enabled": true
             },
             "MoreCommands": {
                 "enabled": false
@@ -306,7 +314,8 @@
                 "enabled": false
             },
             "ServerListIndicators": {
-                "enabled": false
+                "enabled": true,
+                "mode": 2
             },
             "SpotifyShareCommands": {
                 "enabled": true
@@ -318,7 +327,7 @@
                 "enabled": false
             },
             "ViewRaw": {
-                "enabled": false
+                "enabled": true
             },
             "BadgeAPI": {
                 "enabled": true
@@ -331,12 +340,57 @@
             },
             "SupportHelper": {
                 "enabled": true
+            },
+            "SearchReply": {
+                "enabled": false
+            },
+            "SettingsStoreAPI": {
+                "enabled": false
+            },
+            "BetterFolders": {
+                "enabled": false
+            },
+            "FakeProfileThemes": {
+                "enabled": false
+            },
+            "GameActivityToggle": {
+                "enabled": false
+            },
+            "GifPaste": {
+                "enabled": false
+            },
+            "ImageZoom": {
+                "enabled": false
+            },
+            "MoreUserTags": {
+                "enabled": false
+            },
+            "RelationshipNotifier": {
+                "enabled": false
+            },
+            "UserVoiceShow": {
+                "enabled": false
+            },
+            "Wikisearch": {
+                "enabled": false
+            },
+            "GreetStickerPicker": {
+                "enabled": false
             }
         },
         "notifications": {
             "timeout": 5000,
             "position": "bottom-right",
-            "useNative": "not-focused"
+            "useNative": "not-focused",
+            "logLimit": 50
+        },
+        "macosTranslucency": false,
+        "disableMinSize": true,
+        "cloud": {
+            "authenticated": false,
+            "url": "https://api.vencord.dev/",
+            "settingsSync": false,
+            "settingsSyncVersion": 1681286181329
         }
     },
     "quickCss": ""
