@@ -78,10 +78,10 @@
   --user-modal-invert: var(--background-invert);
   --user-modal-grayscale: var(--background-grayscale);
   --user-modal-sepia: var(--background-sepia);
-  --user-modal-blur: calc(var(--background-blur) + 3px);
   --home-icon: url(https://clearvision.github.io/icons/discord.svg);
   --home-position: center;
   --home-size: 40px;
+  --user-modal-blur: calc(var(--background-blur) + 3px);
   --popout-color: rgba(0, 0, 0, 0.8);
   --modal-color: rgba(0, 0, 0, 0.5);
   --bd-blue: var(--main-color);
@@ -128,6 +128,9 @@
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  --home-position: center;
+  --home-size: 40px;
   --user-modal-blur: 3px;
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
